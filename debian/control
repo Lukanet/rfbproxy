@@ -1,0 +1,16 @@
+Source: rfbproxy
+Section: unknown
+Priority: optional
+Maintainer: Anton Avramov <avramov@lukanet.com>
+Build-Depends: debhelper (>= 10), autotools-dev
+Standards-Version: 1.1.7
+
+Package: rfbproxy
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: This is a record/replay proxy for RFB (used by VNC).  It can be used
+ as a proxy between a VNC viewer and a VNC server to permit recording
+ into a file, or it can record from a server independently of a client.
+ It can also be used as a pseudo-VNC server to play back a recorded
+ session, and can convert a recorded VNC session into various video
+ formats.
