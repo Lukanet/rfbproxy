@@ -27,3 +27,4 @@ depcomp
 install-sh
 Makefile.in
 missing
+rfbproxy.spec
